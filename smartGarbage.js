@@ -1,10 +1,6 @@
-const smartGarbage = function (trash, bins) {
-  
-  const binCount = bins;
-
-  binCount[trash]++;
-
-  return binCount;
+const smartGarbage = function (trashType, bins) {
+  bins[trashType]++
+  return bins;
 }
 
 
